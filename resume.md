@@ -51,3 +51,4 @@ Passionate and fast-learning Junior DevOps Engineer with a strong foundation in 
 **High School Student**
 *Currently studying*
 - 18 years old, demonstrating early aptitude and extreme dedication to self-teaching advanced computing and system architecture.
+
