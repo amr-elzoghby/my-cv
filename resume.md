@@ -1,7 +1,7 @@
 # Amr Saad EL-zoghby
 
-**Email:** amr.s.elzoghby@gmail.com | **Phone:** +201090080358
-**Portfolio:** [d2u3ifcyc2tvxh.cloudfront.net](https://d2u3ifcyc2tvxh.cloudfront.net) | **GitHub:** [github.com/amr-elzoghby](https://github.com/amr-elzoghby)
+amr.s.elzoghby@gmail.com | +20 109 008 0358  
+[Portfolio: d2u3ifcyc2tvxh.cloudfront.net](https://d2u3ifcyc2tvxh.cloudfront.net) | [github.com/amr-elzoghby](https://github.com/amr-elzoghby)
 
 ---
 
@@ -51,3 +51,4 @@ Passionate and fast-learning Junior DevOps Engineer with a strong foundation in 
 **High School Student**
 *Currently studying*
 - 18 years old, demonstrating early aptitude and extreme dedication to self-teaching advanced computing and system architecture.
+
