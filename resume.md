@@ -51,7 +51,7 @@ Passionate and fast-learning Junior DevOps Engineer with hands-on experience des
 ## Certifications & Courses
 
 **Forward Thinking — McKinsey & Company**
-- *Currently Enrolled*
+- *Currently Enrolled (Week 3 of 10)*
 - Professional development program focused on structured problem-solving, communication, and strategic thinking.
 
 **AI For Everyone — Coursera (by Andrew Ng)**
