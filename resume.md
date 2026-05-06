@@ -7,7 +7,7 @@ amr.s.elzoghby@gmail.com | +20 109 008 0358
 
 ## Summary
 
-Passionate and fast-learning Junior DevOps Engineer with a strong foundation in cloud infrastructure, automation, and containerization. Driven by a desire to deeply understand core technologies and system fundamentals rather than just utilizing tools. Enthusiastic about continuous learning and problem-solving, possessing hands-on experience building and deploying infrastructure using modern DevOps practices. *Still in high school, already shipping.*
+Passionate and fast-learning Junior DevOps Engineer with hands-on experience designing production-grade cloud infrastructure, container orchestration, and CI/CD automation. Built and deployed a scalable microservices platform on AWS EKS capable of handling 10,000+ concurrent users. Focused on deeply understanding system fundamentals — not just utilizing tools. Self-taught with a strong drive for continuous learning and real-world problem-solving.
 
 ---
 
@@ -15,40 +15,50 @@ Passionate and fast-learning Junior DevOps Engineer with a strong foundation in 
 
 | Category | Technologies |
 |---|---|
-| **Cloud** | AWS (Fundamentals) |
-| **IaC & Automation** | Terraform, GitHub Actions, Bash Scripting |
-| **Containers & Orchestration** | Docker, Kubernetes (K8s) |
-| **Web Servers & Proxies** | NGINX |
-| **Observability** | Grafana (Basics) |
-| **Programming** | Python |
-| **Languages** | Arabic (Native), English (Intermediate - B1) |
+| **Cloud** | AWS (VPC, EKS, ECR, S3, IAM, CloudFront, Secrets Manager, SSM) |
+| **IaC & Automation** | Terraform (Modular Architecture), GitHub Actions (OIDC), Bash Scripting |
+| **Containers & Orchestration** | Docker, Kubernetes (EKS, HPA, Cluster Autoscaler), Helm |
+| **Web Servers & Proxies** | NGINX (Reverse Proxy, Ingress Controller) |
+| **Observability** | Prometheus, Grafana, Loki, Promtail, ServiceMonitors |
+| **Programming** | Python, Node.js |
+| **Soft Skills** | Communication, Problem-Solving, Forward Thinking (McKinsey & Company) |
+| **Languages** | Arabic (Native), English (Intermediate — B1) |
 
 ---
 
 ## Projects
 
-### Web Application Deployment
+### ShopMicro — E-Commerce Microservices Platform
 **GitHub:** [github.com/amr-elzoghby/web-app](https://github.com/amr-elzoghby/web-app)
-- Designed and built the underlying infrastructure for a web application project.
-- Applied DevOps practices including containerization and automation to streamline deployment.
+
+- Architected a production-grade e-commerce platform with **5 Node.js microservices** (User, Catalog, Cart, Order, Payment) on **AWS EKS**.
+- Designed modular Terraform IaC with **isolated state layers** (Network → Storage → EKS), eliminating blast-radius risk across environments.
+- Replaced NAT Gateway with **6 VPC Endpoints** (EKS, EC2, ECR, S3, STS, SSM), saving ~$32/month while keeping nodes fully private.
+- Configured **HPA** (2→20 pods/service at 60% CPU) + **Cluster Autoscaler** (up to 20 Spot nodes) — load-tested to handle **10,000+ concurrent users**.
+- Deployed full observability stack via Helm: **Prometheus, Grafana, Loki** with auto-configured ServiceMonitors for all microservices.
+- Built CI/CD pipeline with **GitHub Actions + OIDC** federation — zero stored AWS credentials, multi-stage Docker builds, ECR scan-on-push.
+- Implemented workload isolation: microservices on **Spot** nodes (cost-optimized), databases on **On-Demand** nodes (stability-first) using StatefulSets.
 
 ### Personal Portfolio Infrastructure
-**Live URL:** [d2u3ifcyc2tvxh.cloudfront.net](https://d2u3ifcyc2tvxh.cloudfront.net)
-- Deployed a personal portfolio website utilizing cloud infrastructure.
-- Configured AWS CloudFront CDN for global, optimized content delivery.
+**Live:** [d2u3ifcyc2tvxh.cloudfront.net](https://d2u3ifcyc2tvxh.cloudfront.net) | **GitHub:** [github.com/amr-elzoghby/portfolio](https://github.com/amr-elzoghby/portfolio)
+
+- Deployed a personal portfolio website on AWS using Terraform-managed infrastructure.
+- Configured **S3 static hosting** with **CloudFront CDN** for global low-latency delivery and HTTPS termination.
+- Automated deployments via **GitHub Actions** with OIDC-based AWS authentication — no stored secrets.
 
 ---
 
-## Certifications
+## Certifications & Courses
+
+**Forward Thinking — McKinsey & Company**
+- Completed professional development program focused on structured problem-solving, communication, and strategic thinking.
 
 **AI For Everyone — Coursera (by Andrew Ng)**
-- Completed foundational artificial intelligence coursework.
+- Completed foundational artificial intelligence coursework covering AI strategy and business applications.
 
 ---
 
 ## Education
 
-**High School Student**
-*Currently studying*
-- 18 years old, demonstrating early aptitude and extreme dedication to self-teaching advanced computing and system architecture.
-
+**General Secondary Education (Thanaweya Amma)**
+*Expected Graduation: 2026*
