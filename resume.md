@@ -61,4 +61,4 @@ Passionate and fast-learning Junior DevOps Engineer with hands-on experience des
 ## Education
 
 **General Secondary Education (Thanaweya Amma)**
-*Expected Graduation: 2026*
+*Expected Graduation: 2030*
