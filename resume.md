@@ -20,7 +20,7 @@ Passionate and fast-learning Junior DevOps Engineer with hands-on experience des
 | **IaC & Automation** | Terraform (Modular Architecture), GitHub Actions (OIDC), Bash Scripting |
 | **Observability** | Prometheus, Grafana, Loki, Promtail, ServiceMonitors |
 | **Web Servers & Proxies** | NGINX (Reverse Proxy, Ingress Controller) |
-| **Programming** | Python, Node.js |
+| **Programming** | Python |
 | **Soft Skills** | Communication, Problem-Solving, Forward Thinking |
 | **Languages** | Arabic (Native), English (Intermediate — B1) |
 
