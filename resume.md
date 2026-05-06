@@ -16,12 +16,12 @@ Passionate and fast-learning Junior DevOps Engineer with hands-on experience des
 | Category | Technologies |
 |---|---|
 | **Cloud** | AWS (VPC, EKS, ECR, S3, IAM, CloudFront, Secrets Manager, SSM) |
-| **IaC & Automation** | Terraform (Modular Architecture), GitHub Actions (OIDC), Bash Scripting |
 | **Containers & Orchestration** | Docker, Kubernetes (EKS, HPA, Cluster Autoscaler), Helm |
-| **Web Servers & Proxies** | NGINX (Reverse Proxy, Ingress Controller) |
+| **IaC & Automation** | Terraform (Modular Architecture), GitHub Actions (OIDC), Bash Scripting |
 | **Observability** | Prometheus, Grafana, Loki, Promtail, ServiceMonitors |
+| **Web Servers & Proxies** | NGINX (Reverse Proxy, Ingress Controller) |
 | **Programming** | Python, Node.js |
-| **Soft Skills** | Communication, Problem-Solving, Forward Thinking (McKinsey & Company) |
+| **Soft Skills** | Communication, Problem-Solving, Forward Thinking |
 | **Languages** | Arabic (Native), English (Intermediate — B1) |
 
 ---
@@ -51,7 +51,8 @@ Passionate and fast-learning Junior DevOps Engineer with hands-on experience des
 ## Certifications & Courses
 
 **Forward Thinking — McKinsey & Company**
-- Completed professional development program focused on structured problem-solving, communication, and strategic thinking.
+- *Currently Enrolled*
+- Professional development program focused on structured problem-solving, communication, and strategic thinking.
 
 **AI For Everyone — Coursera (by Andrew Ng)**
 - Completed foundational artificial intelligence coursework covering AI strategy and business applications.
@@ -60,5 +61,5 @@ Passionate and fast-learning Junior DevOps Engineer with hands-on experience des
 
 ## Education
 
-**General Secondary Education (Thanaweya Amma)**
+**General Secondary Education**
 *Expected Graduation: 2030*
