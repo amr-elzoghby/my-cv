@@ -7,7 +7,7 @@ amr.s.elzoghby@gmail.com | +20 109 008 0358
 
 ## Summary
 
-Passionate and fast-learning Junior DevOps Engineer with hands-on experience designing production-grade cloud infrastructure, container orchestration, and CI/CD automation. Built and deployed a scalable microservices platform on AWS EKS capable of handling 10,000+ concurrent users. Focused on deeply understanding system fundamentals — not just utilizing tools. Self-taught with a strong drive for continuous learning and real-world problem-solving.
+Passionately and fast-learning Junior DevOps Engineer with hands-on experience designing production-grade cloud infrastructure, container orchestration, and CI/CD automation. Built and deployed a scalable microservices platform on AWS EKS capable of handling 15,000+ concurrent users. Focused on deeply understanding system fundamentals — not just utilizing tools. Self-taught with a strong drive for continuous learning and real-world problem-solving.
 
 ---
 
@@ -28,15 +28,16 @@ Passionate and fast-learning Junior DevOps Engineer with hands-on experience des
 
 ## Projects
 
-### ShopMicro — E-Commerce Microservices Platform
-**GitHub:** [github.com/amr-elzoghby/web-app](https://github.com/amr-elzoghby/web-app)
+### ShopScale — High-Scale E-Commerce Microservices Platform
+**GitHub:** [github.com/amr-elzoghby/High-Scale-Ecommerce-K8s-15K-Concurrent](https://github.com/amr-elzoghby/High-Scale-Ecommerce-K8s-15K-Concurrent)
 
 - Architected a production-grade e-commerce platform with **5 Node.js microservices** (User, Catalog, Cart, Order, Payment) on **AWS EKS**.
 - Designed modular Terraform IaC with **isolated state layers** (Network → Storage → EKS), eliminating blast-radius risk across environments.
 - Replaced NAT Gateway with **6 VPC Endpoints** (EKS, EC2, ECR, S3, STS, SSM), saving ~$32/month while keeping nodes fully private.
-- Configured **HPA** (2→20 pods/service at 60% CPU) + **Cluster Autoscaler** (up to 20 Spot nodes) — load-tested to handle **10,000+ concurrent users**.
+- Configured **HPA** (2→20 pods/service at 60% CPU) + **Cluster Autoscaler** (up to 20 Spot nodes) — load-tested to handle **15,000+ concurrent users**.
 - Deployed full observability stack via Helm: **Prometheus, Grafana, Loki** with auto-configured ServiceMonitors for all microservices.
 - Built CI/CD pipeline with **GitHub Actions + OIDC** federation — zero stored AWS credentials, multi-stage Docker builds, ECR scan-on-push.
+- Implemented **IRSA (IAM Roles for Service Accounts)** to provide pods with fine-grained, least-privilege AWS permissions (S3, Secrets Manager, STS) via OIDC provider, eliminating the need for broad node-level IAM roles.
 - Implemented workload isolation: microservices on **Spot** nodes (cost-optimized), databases on **On-Demand** nodes (stability-first) using StatefulSets.
 
 ### Personal Portfolio Infrastructure
