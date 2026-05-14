@@ -52,6 +52,10 @@ Passionately and fast-learning Junior DevOps Engineer with hands-on experience d
 
 ## Certifications & Courses
 
+**CS50: Introduction to Computer Science — Harvard University**
+- *Currently Enrolled*
+- Deepening understanding of core computer science fundamentals, data structures, and low-level system operations to build a solid "under the hood" engineering foundation.
+
 **Forward Thinking — McKinsey & Company**
 - *Currently Enrolled (Week 3 of 10)*
 - Professional development program focused on structured problem-solving, communication, and strategic thinking.
