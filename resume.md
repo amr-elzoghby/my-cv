@@ -17,7 +17,7 @@ Passionately and fast-learning Junior DevOps Engineer with hands-on experience d
 |---|---|
 | **Cloud** | AWS (VPC, EKS, ECR, S3, IAM, CloudFront, Secrets Manager, SSM) |
 | **Containers & Orchestration** | Docker, Kubernetes (EKS, HPA, Cluster Autoscaler), Helm |
-| **IaC & Automation** | Terraform (Modular Architecture), GitHub Actions (OIDC), Bash Scripting |
+| **IaC & Automation** | Terraform (Modular Architecture), GitHub Actions (OIDC), ArgoCD (GitOps), Bash Scripting |
 | **Observability** | Prometheus, Grafana, Loki, Promtail, ServiceMonitors |
 | **Web Servers & Proxies** | NGINX (Reverse Proxy, Ingress Controller) |
 | **Programming** | Python |
@@ -36,7 +36,8 @@ Passionately and fast-learning Junior DevOps Engineer with hands-on experience d
 - Replaced NAT Gateway with **6 VPC Endpoints** (EKS, EC2, ECR, S3, STS, SSM), saving ~$32/month while keeping nodes fully private.
 - Configured **HPA** (2→20 pods/service at 60% CPU) + **Cluster Autoscaler** (up to 20 Spot nodes) — load-tested to handle **15,000+ concurrent users**.
 - Deployed full observability stack via Helm: **Prometheus, Grafana, Loki** with auto-configured ServiceMonitors for all microservices.
-- Built CI/CD pipeline with **GitHub Actions + OIDC** federation — zero stored AWS credentials, multi-stage Docker builds, ECR scan-on-push.
+- Built CI pipeline with **GitHub Actions + OIDC** federation — zero stored AWS credentials, multi-stage Docker builds, ECR scan-on-push.
+- Engineered a **GitOps** workflow using **ArgoCD** and a dual-repository strategy for automated, zero-touch Kubernetes deployments.
 - Implemented **IRSA (IAM Roles for Service Accounts)** to provide pods with fine-grained, least-privilege AWS permissions (S3, Secrets Manager, STS) via OIDC provider, eliminating the need for broad node-level IAM roles.
 - Implemented workload isolation: microservices on **Spot** nodes (cost-optimized), databases on **On-Demand** nodes (stability-first) using StatefulSets.
 
