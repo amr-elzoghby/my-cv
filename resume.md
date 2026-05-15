@@ -60,8 +60,8 @@ Passionately and fast-learning Junior DevOps Engineer with hands-on experience d
 - *Currently Enrolled (Week 3 of 10)*
 - Professional development program focused on structured problem-solving, communication, and strategic thinking.
 
-**AI For Everyone — Coursera (by Andrew Ng)**
-- Completed foundational artificial intelligence coursework covering AI strategy and business applications.
+**Machine Learning Specialization — DeepLearning.AI & Stanford University (by Andrew Ng)**
+- Completed the comprehensive 3-course specialization covering Supervised Machine Learning, Advanced Learning Algorithms (Neural Networks), and Unsupervised Learning & Recommender Systems.
 
 ---
 
